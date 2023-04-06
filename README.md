@@ -1,5 +1,5 @@
 # FocusTimer2.0
-Curso Explorer - Rocketseat - Stage 5 - Desafio 1
+Curso Explorer - Rocketseat - Stage 5 - Desafio 1 e 2
 
 O que foi visto no stage 5:
 - Utilização de variáveis no CSS;
