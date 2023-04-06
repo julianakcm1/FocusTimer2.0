@@ -1,13 +1,13 @@
 # FocusTimer2.0
 Curso Explorer - Rocketseat - Stage 5 - Desafio 1
 
-O que foi visto no stage 5 e aplicado no desafio:
+O que foi visto no stage 5:
 - Utilização de variáveis no CSS;
 - Utilização da propriedade `clamp()`;
 - Utilização do `display: grid`;
 - Utilização da DOM no navegador;
 - Funções callbacks;
-- Saber o que é recursividade;
+- Recursividade;
 - Princípios do Clean Code;
 - Escopos;
 - ES6 Modules;
