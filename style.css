@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-color: #000000;
+  --bg-primary-card: #29292E;
+
+  --hue: 240;
+  --tt-global: white;
+
+  --ff-global: 'Roboto', sans-serif;
+
+  --bg-card: #29292E;
+  --bg-card-hover: hsla(194, 97%, 31%, 1);
+
+  --icon-color: #FFFFFF;
+  --icon-color-card-selected: #000000;
+}
+
+.light {
+  --bg-color: #FFFFFF;
+  --bg-card: hsla(var(--hue), 9%, 89%, 1);
+
+  --tt-global: hsla(var(--hue), 6%, 21%, 1);
+  --tt-color: #FFFFFF;
+
+  --icon-color: #000000;
+  --icon-color-card-selected: #FFFFFF;
+}
+
+.hide {
+  display: none;
+}
+
+.select #forest svg path,
+.select #rain svg path,
+.select #coffee svg path,
+.select #fireplace svg path {
+  fill: var(--icon-color-card-selected);
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--tt-global);
+  font-family: var(--ff-global);
+  display: grid;
+  min-height: 100vh;
+  position: relative;
+}
+
+header {
+  margin: 0.3rem 0;
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+}
+
+main {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  align-items: center;
+  gap: 19.2rem;
+}
+
+#timer {
+  font-size: 12.6166rem;
+  line-height: 14.8rem;
+  margin-bottom: 1.7rem;
+  display: flex;
+}
+
+button {
+  background: transparent;
+  border: none;
+  justify-self: center;
+  cursor: pointer;
+}
+
+button:hover svg path {
+  fill: var(--bg-card-hover);
+}
+
+#controls {
+  display: flex;
+  gap: 4rem;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+#cards {
+  gap: 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card {
+  background: var(--bg-card);
+  padding: 4.8rem 4.4rem;
+  border-radius: 2.4rem;
+  width: 13.8rem;
+  height: 15.2rem;
+  cursor: pointer;
+  transition: background .7s ease;
+}
+
+.card svg path {
+  fill: var(--icon-color);
+}
+
+.card:hover {
+  background: var(--bg-card-hover);
+  transform: scale(1.1);
+  /* transition: all 2s; */
+  transition: ease-in-out .6s;
+}
+
+.card:hover svg path {
+  fill: var(--icon-color-card-selected);
+}
+
+@media (max-width: 853px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 0 3rem;
+    gap: 5rem;
+  }
+
+  #timer {
+    text-align: center;
+    font-size: clamp(9rem, 10rem + 8vw, 12rem);
+  }
+}
