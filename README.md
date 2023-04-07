@@ -19,13 +19,13 @@ O que foi visto no stage 5:
 <div id="one" align="center">
 Light Mode
 
-![Captura de tela de 2023-04-06 01-12-17](https://user-images.githubusercontent.com/54086293/230270703-780ddcf4-ef1b-4320-a8b0-8af668de590c.png)
+![Captura de tela de 2023-04-06 23-26-18](https://user-images.githubusercontent.com/54086293/230528408-50d54709-d150-48f7-a2a2-a1b47f7692d1.png)
 
 </div>
 
 <div id="two" align="center">
 
 Dark Mode
-![Captura de tela de 2023-04-06 01-13-30](https://user-images.githubusercontent.com/54086293/230270438-35606117-be6d-43ba-97e1-34ec953a4715.png)
+![Captura de tela de 2023-04-06 23-26-30](https://user-images.githubusercontent.com/54086293/230528428-8913fb44-d82d-43c2-8dd3-2cae989625c7.png)
 
 </div>
