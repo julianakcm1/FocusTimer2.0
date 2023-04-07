@@ -8,7 +8,12 @@ import {
   buttonSoundCoffee,
   buttonSoundFireplace,
   buttonLightMode,
-  buttonDarkMode
+  buttonDarkMode,
+  forestVolumeSlider,
+  rainVolumeSlider,
+  coffeeVolumeSlider,
+  fireplaceVolumeSlider,
+  volumeSlider
 } from "./elements.js"
 
 export default function({
@@ -16,6 +21,8 @@ export default function({
   timer,
   sound
 }) {
+
+  // SELECTION
 
   function addSelection(card) {
     removeSelection()
@@ -28,6 +35,8 @@ export default function({
     buttonSoundCoffee.classList.remove('select')
     buttonSoundFireplace.classList.remove('select')
   }
+
+  // CONTROLS
     
   buttonPlay.addEventListener('click', function() {
     controls.play()
@@ -52,6 +61,8 @@ export default function({
     timer.updateDisplay(newMinutes, 0)
     timer.updateMinutes(newMinutes)
   })
+
+  // SOUND
     
   buttonSoundForest.addEventListener('click', () => {
     sound.resetSounds()
@@ -92,6 +103,53 @@ export default function({
     }
     removeSelection()
   })
+
+  // VOLUME
+
+  function changeVolume(audio, valueSlider) {
+    audio.volume = valueSlider.value;
+  }
+
+  function turnOnVolume(audio, valueSlider) {
+    valueSlider.value = 0.5
+    audio.volume = valueSlider.value
+  }
+
+  function turnOffVolume(audio, valueSlider) {
+    valueSlider.value = 0
+    audio.volume = valueSlider.value
+  }
+
+  forestVolumeSlider.addEventListener('click', function(event) {
+    event.stopPropagation();
+  });
+  rainVolumeSlider.addEventListener('click', function(event) {
+    event.stopPropagation();
+  });
+  coffeeVolumeSlider.addEventListener('click', function(event) {
+    event.stopPropagation();
+  });
+  fireplaceVolumeSlider.addEventListener('click', function(event) {
+    event.stopPropagation();
+  });
+
+  forestVolumeSlider.addEventListener('change', () => {
+    changeVolume(sound.forestAudio, forestVolumeSlider)
+  })
+
+  rainVolumeSlider.addEventListener('change', () => {
+    changeVolume(sound.rainAudio, rainVolumeSlider)
+  })
+
+  coffeeVolumeSlider.addEventListener('change', () => {
+    changeVolume(sound.coffeeAudio, coffeeVolumeSlider)
+  })
+
+  fireplaceVolumeSlider.addEventListener('change', () => {
+    changeVolume(sound.fireplaceAudio, fireplaceVolumeSlider)
+  })
+
+  // VIEW
     
   function changeView() {
     buttonLightMode.classList.toggle('hide')
