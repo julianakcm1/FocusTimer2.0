@@ -1,6 +1,8 @@
 # FocusTimer2.0
 Curso Explorer - Rocketseat - Stage 5 - Desafio 1 e 2
 
+Design: https://www.figma.com/file/79zEuz1XgAB0OUHC9lzf6G/Stage-05---Dark-Mode-FocusTimer-(Copy)?node-id=0-59&t=xEZbenEjYbbXD8fD-0
+
 O que foi visto no stage 5:
 - Utilização de variáveis no CSS;
 - Utilização da propriedade `clamp()`;
