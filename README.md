@@ -3,6 +3,21 @@ Curso Explorer - Rocketseat - Stage 5 - Desafio 1 e 2
 
 Design: https://www.figma.com/file/79zEuz1XgAB0OUHC9lzf6G/Stage-05---Dark-Mode-FocusTimer-(Copy)?node-id=0-59&t=xEZbenEjYbbXD8fD-0
 
+<div id="one" align="center">
+Light Mode
+
+![Captura de tela de 2023-04-06 23-26-18](https://user-images.githubusercontent.com/54086293/230528408-50d54709-d150-48f7-a2a2-a1b47f7692d1.png)
+
+</div>
+
+<div id="two" align="center">
+
+Dark Mode
+![Captura de tela de 2023-04-06 23-26-30](https://user-images.githubusercontent.com/54086293/230528428-8913fb44-d82d-43c2-8dd3-2cae989625c7.png)
+
+</div>
+
+
 O que foi visto no stage 5:
 - Utilização de variáveis no CSS;
 - Utilização da propriedade `clamp()`;
@@ -17,17 +32,3 @@ O que foi visto no stage 5:
 - Injeção de dependências;
 - Refatoração de código;
 - Adicionar sons pelo JavaScript;
-
-<div id="one" align="center">
-Light Mode
-
-![Captura de tela de 2023-04-06 23-26-18](https://user-images.githubusercontent.com/54086293/230528408-50d54709-d150-48f7-a2a2-a1b47f7692d1.png)
-
-</div>
-
-<div id="two" align="center">
-
-Dark Mode
-![Captura de tela de 2023-04-06 23-26-30](https://user-images.githubusercontent.com/54086293/230528428-8913fb44-d82d-43c2-8dd3-2cae989625c7.png)
-
-</div>
