@@ -20,6 +20,9 @@
 
   --icon-color: #FFFFFF;
   --icon-color-card-selected: #000000;
+
+  --slider-color: #FFFFFF;
+  --slider-color-selected: #FFFFFF;
 }
 
 .light {
@@ -31,6 +34,9 @@
 
   --icon-color: #000000;
   --icon-color-card-selected: #FFFFFF;
+
+  --slider-color: red;
+  --slider-color-selected: #000000;
 }
 
 .hide {
@@ -56,8 +62,8 @@ body {
 header {
   margin: 0.3rem 0;
   position: absolute;
-  top: 0.8rem;
-  right: 0.8rem;
+  top: 6rem;
+  right: 6rem;
 }
 
 main {
@@ -107,6 +113,9 @@ button:hover svg path {
   height: 15.2rem;
   cursor: pointer;
   transition: background .7s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card svg path {
@@ -116,12 +125,25 @@ button:hover svg path {
 .card:hover {
   background: var(--bg-card-hover);
   transform: scale(1.1);
-  /* transition: all 2s; */
   transition: ease-in-out .6s;
 }
 
 .card:hover svg path {
   fill: var(--icon-color-card-selected);
+}
+
+.volumeSlider {
+  align-items: center;
+  margin-top: 1.5rem;
+  width: 9rem;
+  height: 1.6rem;
+  border-radius: .5rem;  
+  background-color: var(--slider-color);
+  outline: none;
+}
+
+.card.select .volumeSlider{
+  background-color: var(--slider-color-selected);
 }
 
 @media (max-width: 853px) {
