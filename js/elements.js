@@ -10,6 +10,11 @@ const buttonSoundCoffee = document.querySelector('.coffee')
 const buttonSoundFireplace = document.querySelector('.fireplace')
 const buttonLightMode = document.querySelector('.light-mode')
 const buttonDarkMode = document.querySelector('.dark-mode')
+const forestVolumeSlider = document.querySelector('#forestVolumeSlider')
+const rainVolumeSlider = document.querySelector('#rainVolumeSlider')
+const coffeeVolumeSlider = document.querySelector('#coffeeVolumeSlider')
+const fireplaceVolumeSlider = document.querySelector('#fireplaceVolumeSlider')
+const volumeSlider = document.querySelector('.volumeSlider')
 
 export {
   buttonPlay,
@@ -23,5 +28,10 @@ export {
   buttonSoundCoffee,
   buttonSoundFireplace,
   buttonLightMode,
-  buttonDarkMode
+  buttonDarkMode,
+  forestVolumeSlider,
+  rainVolumeSlider,
+  coffeeVolumeSlider,
+  fireplaceVolumeSlider,
+  volumeSlider
 }
