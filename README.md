@@ -1,7 +1,18 @@
+<div align="center">
+
+<img src="https://cdn0.iconfinder.com/data/icons/business-management-109/64/timer-Clock-time-Focus-target-512.png" width=100 height=100>
+
 # FocusTimer2.0
 Curso Explorer - Rocketseat - Stage 5 - Desafio 1 e 2
 
-Design: https://www.figma.com/file/79zEuz1XgAB0OUHC9lzf6G/Stage-05---Dark-Mode-FocusTimer-(Copy)?node-id=0-59&t=xEZbenEjYbbXD8fD-0
+</div>
+
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contato">Contato</a><br><br>
+</p>
 
 <div id="one" align="center">
 Light Mode
@@ -17,8 +28,11 @@ Dark Mode
 
 </div>
 
+<div id="-projeto">
 
-O que foi visto no stage 5:
+## :computer: Projeto
+
+Para o desafio, foram usados novos conceitos, como:
 - Utilização de variáveis no CSS;
 - Utilização da propriedade `clamp()`;
 - Utilização do `display: grid`;
@@ -31,4 +45,38 @@ O que foi visto no stage 5:
 - Padrão Factory;
 - Injeção de dependências;
 - Refatoração de código;
-- Adicionar sons pelo JavaScript;
+- Adicionar sons pelo JavaScript, entre outros.
+
+</div>
+
+<div id="-tecnologias">
+  
+## :rocket: Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML  
+- CSS
+- JavaScript
+- Git
+- Github
+- Figma
+
+</div>
+
+<div id="-layout">
+
+## :memo: Layout
+
+Para a visualização do layout do projeto, basta clicar [aqui](https://www.figma.com/file/79zEuz1XgAB0OUHC9lzf6G/Stage-05---Dark-Mode-FocusTimer-(Copy)?node-id=0-59&t=xEZbenEjYbbXD8fD-0).
+
+</div>
+
+<div id="-contato">
+
+## :envelope: Contato
+
+- E-mail: julianakcmelo@gmail.com
+- LinkedIn: https://www.linkedin.com/in/julianakcmelo/
+
+</div>
