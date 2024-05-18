@@ -3,15 +3,13 @@
 <img src="https://cdn0.iconfinder.com/data/icons/business-management-109/64/timer-Clock-time-Focus-target-512.png" width=100 height=100>
 
 # FocusTimer2.0
-Curso Explorer - Rocketseat - Stage 5 - Desafio 1 e 2
 
 </div>
 
 <p align="center">
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-contato">Contato</a><br><br>
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contato">Contact</a><br><br>
 </p>
 
 <div id="one" align="center">
@@ -30,28 +28,31 @@ Dark Mode
 
 <div id="-projeto">
 
-## :computer: Projeto
+## :computer: Project
 
-Para o desafio, foram usados novos conceitos, como:
-- Utilização de variáveis no CSS;
-- Utilização da propriedade `clamp()`;
-- Utilização do `display: grid`;
-- Utilização da DOM no navegador;
-- Funções callbacks;
-- Recursividade;
-- Princípios do Clean Code;
-- Escopos;
+The project concerns a timer in which it is possible to change the time using the + and - buttons, there is also the possibility of pausing and stopping, changing the display mode (light or dark) and sounds.
+
+Concepts were used, such as:
+
+- Use of variables in CSS;
+- Use of the `clamp()` property;
+- Use of `display: grid`;
+- Use of the DOM in the browser;
+- Callback functions;
+- Recursion;
+- Clean Code principles;
+- Scopes;
 - ES6 Modules;
-- Padrão Factory;
-- Injeção de dependências;
-- Refatoração de código;
-- Adicionar sons pelo JavaScript, entre outros.
+- Factory Standard;
+- Dependency injection;
+- Code refactoring;
+- Add sounds through JavaScript.
 
 </div>
 
 <div id="-tecnologias">
   
-## :rocket: Tecnologias
+## :rocket: Technologies
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -60,21 +61,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git
 - Github
-- Figma
-
-</div>
-
-<div id="-layout">
-
-## :memo: Layout
-
-Para a visualização do layout do projeto, basta clicar [aqui](https://www.figma.com/file/79zEuz1XgAB0OUHC9lzf6G/Stage-05---Dark-Mode-FocusTimer-(Copy)?node-id=0-59&t=xEZbenEjYbbXD8fD-0).
+- [Figma](https://www.figma.com/design/79zEuz1XgAB0OUHC9lzf6G/FocusTimer-2.0?node-id=0%3A1&t=F5wHqgJstwCj261j-1)
 
 </div>
 
 <div id="-contato">
 
-## :envelope: Contato
+## :envelope: Contact
 
 - E-mail: julianakcmelo@gmail.com
 - LinkedIn: https://www.linkedin.com/in/julianakcmelo/
